@@ -1,0 +1,19 @@
+{
+  "name": "conn-leak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.610.0",
+    "mysql2": "^1.6.5"
+  },
+  "devDependencies": {
+    "serverless": "^1.69.0",
+    "serverless-plugin-ifelse": "^1.0.5"
+  }
+}
